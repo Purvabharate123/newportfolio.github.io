@@ -1,0 +1,257 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('purvafullbackgroubd.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color:palevioletred;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav {
+    position:sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000; 
+    background-color: #444;
+}
+
+nav ul {
+    list-style: none;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+section {
+    padding: 20px 0;
+}
+
+.about-content {
+    background-color:burlywood;
+    display: flex;
+    align-items: center;
+    text-align:justify;
+    padding: 15px;
+    color:#444;
+}
+h2 {
+    margin-top: 20px;
+    padding-bottom: 10px;
+    color:black;
+    text-align:center;
+}
+
+.about-content img {
+    width: 600px; 
+    height: 600px;
+    border-radius: 300; 
+    margin-left: 30px;
+}
+p {
+    font-size: 1.5em;
+}
+strong {
+    font-weight: bold;
+    font-size: 1.9em;
+}
+
+/* Education Section */
+#education {
+    background-color:bisque;
+    padding: 40px 0;
+}
+
+.education-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.education-info {
+    flex: 1;
+    padding-right: 20px;
+}
+h2 {
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.education-info h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.education-info p {
+    font-size: 20px;
+    color:#333;
+}
+
+.education-image {
+    flex: 1;
+    text-align:center;
+    padding: 15px;
+}
+
+.education-image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+/* Skills Section */
+#skills {
+    background-color:white;
+    padding: 40px 0;
+
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.skills-list li {
+    flex: 1 1 33%;
+    margin-bottom: 20px;
+    display: flex;
+     justify-content: center;
+     margin-bottom: 20px;
+}
+
+.skills-list img {
+    width: 200px;
+    height: 200px;
+}
+
+
+footer {
+    background-color:palevioletred;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.project {
+    background-color:beige;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 17px;
+}
+
+.project h3 {
+    margin-top: 0;
+    font-size: 20px;
+}
+h2 {
+    color: #2c3e50; 
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+p {
+    color: #2c3e50;
+    line-height: 1.6;
+}
+strong {
+    color:brown;
+    font-size:25px;
+}
+
+.project img {
+    max-width: 50%;
+    margin-left: 40px;
+}
+
+.project div {
+    max-width: 60%;
+    padding: 20px;
+}
+
+#contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contact ul li {
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+/* Icon CSS */
+.container svg {
+    margin: 10px;
+    width: 40px; 
+    height: 40px; 
+    fill: #333; 
+    /*transition: fill 0.3s ease, transform 0.3s ease;*/
+}
+
+.container svg:hover {
+    fill: #007bff; 
+    /*transform: scale(1.1);*/ 
+}
+
+.container p {
+    margin-top: 20px;
+    font-size: 15px;
+    color:#333;
+}
